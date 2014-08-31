@@ -1,0 +1,25 @@
+[package]
+
+name = "threeddit"
+version = "0.0.1"
+authors = [ "John Grosen <jmg@johngrosen.com>" ]
+
+[[bin]]
+
+name = "threeddit"
+
+[dependencies.piston]
+
+git = "https://github.com/pistondevelopers/piston"
+
+[dependencies.glfw_game_window]
+
+git = "https://github.com/pistondevelopers/glfw_game_window"
+
+[dependencies.cgmath]
+
+git = "https://github.com/bjz/cgmath-rs"
+
+[dependencies.freetype-rs]
+
+git = "https://github.com/pistondevelopers/freetype-rs"
